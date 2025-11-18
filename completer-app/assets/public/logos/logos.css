@@ -1,0 +1,24 @@
+.app-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: var(--primary-blue);
+    border-radius: 12px;
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 2em; /* Checkmark size */
+    color: white;
+}
+
+.dot {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 12px;
+    height: 12px;
+    background-color: var(--primary-yellow);
+    border-radius: 50%;
+    border: 3px solid white; /* Border color matches card background */
+}
